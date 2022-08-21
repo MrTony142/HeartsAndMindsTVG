@@ -5,6 +5,7 @@ onLoadName = $STR_BTC_HAM_DESCR_NAME;
 onLoadMission = $STR_BTC_HAM_DESCR_MISSION;
 enabledebugconsole = 1;
 
+#include "modules\arsenal\ui\ItemRanksDialog.hpp"
 #include "core\fnc\common\dlg.hpp"
 #include "core\fnc\fob\dlg.hpp"
 #include "core\fnc\log\dlg.hpp"
@@ -29,6 +30,10 @@ class RscTitles {
 
 class CfgFunctions {
     // add your own functions below
+
+    class TVG {
+        #include "modules\arsenal\CfgFunctions.hpp"
+    }
 };
 
 // CBA XEH

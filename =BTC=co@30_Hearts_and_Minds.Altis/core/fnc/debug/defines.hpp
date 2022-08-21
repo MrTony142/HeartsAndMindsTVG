@@ -53,30 +53,6 @@ class IGUIBack {
    colorBackground[] = { 0,0,0, 0.8 };
    text = "";
 };
-class RscText {
-    deletable = 0;
-    fade = 0;
-    access = 0;
-    type = CT_STATIC;
-    idc = -1;
-    colorBackground[] = {0,0,0,0};
-    colorText[] = {1,1,1,1};
-    text = "";
-    fixedWidth = 0;
-    x = 0;
-    y = 0;
-    h = 0.037;
-    w = 0.3;
-    style = ST_LEFT;
-    shadow = 1;
-    colorShadow[] = {0,0,0,0.5};
-    font = "RobotoCondensed";
-    SizeEx = GUI_TEXT_SIZE_MEDIUM;
-    linespacing = 1;
-    tooltipColorText[] = {1,1,1,1};
-    tooltipColorBox[] = {1,1,1,1};
-    tooltipColorShade[] = {0,0,0,0.65};
-};
 class RscControlsGroup {
     deletable = 0;
     fade = 0;
