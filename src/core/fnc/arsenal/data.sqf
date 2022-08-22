@@ -34,7 +34,7 @@ _arsenalData params [["_weapons", [], [[]]], ["_magazines", [], [[]]], ["_items"
 if(isClass (configFile >> "CfgPatches" >> "KP_Ranks")) exitWith {
     private _arsenalItems = [+_weapons, +_magazines, +_items, +_backpacks];
 
-    [_arsenalType > 0, _box, _arsenalItems] call TVG_fnc_initRankRestrictions;
+    [_arsenalType >= 3, _box, flatten _arsenalItems] call TVG_fnc_initRankRestrictions;
 };
 
 //BIS Arsenal

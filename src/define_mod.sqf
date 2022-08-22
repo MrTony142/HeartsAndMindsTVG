@@ -40,12 +40,14 @@ BIS_respSpecLists = true;                // Show list of available units and loc
             "G_Shades_Green"
         ];
 */
-private _weapons = [];
-private _magazines = [];
-private _items = [];
-private _backpacks = [];
 
-btc_custom_arsenal = [_weapons, _magazines, _items, _backpacks];
+private _presets = createHashMapFromArray [
+    [0, "core\fnc\arsenal\presets\rhsusaf.sqf"]
+];
+
+private _preset = compileScript [_presets get btc_p_arsenal_Presets];
+
+btc_custom_arsenal = [] call _preset;
 
 /*
     Here you can specify which equipment is loaded on player connection.

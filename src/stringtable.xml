@@ -880,6 +880,12 @@
                 <French>&lt;&lt; Options de l'Arsenal &gt;&gt;</French>
                 <Czech>&lt;&lt; Možnosti Arsenalu &gt;&gt;</Czech>
             </Key>
+            <Key ID="STR_BTC_HAM_PARAM_ARSENAL_ARSENALPRESETS">
+                <Original>Arsenal Preset:</Original>
+            </Key>
+            <Key ID="STR_BTC_HAM_PARAM_ARSENAL_ARSENALPRESETS_RHSUSAF">
+                <Original>RHS: USAF</Original>
+            </Key>
             <Key ID="STR_BTC_HAM_PARAM_ARSENAL_ARSENALTYPE">
                 <Original>Type of the arsenal:</Original>
                 <German>Art des Arsenals:</German>
