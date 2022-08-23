@@ -23,8 +23,8 @@ if (!isServer) exitWith{};
 
 TVG_itemRankRestrictions = _rankUpdates;
 
-profileNamespace setVariable ["TVG_itemRankRestrictions", TVG_itemRankRestrictions];
-saveProfileNamespace;
+missionProfileNamespace setVariable ["TVG_itemRankRestrictions", TVG_itemRankRestrictions];
+saveMissionProfileNamespace;
 
 publicVariable "TVG_itemRankRestrictions";
 

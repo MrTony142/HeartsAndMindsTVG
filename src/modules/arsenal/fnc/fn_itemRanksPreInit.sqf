@@ -15,7 +15,7 @@
 */
 
 if (isServer) then {
-    TVG_itemRankRestrictions = profileNamespace getVariable ["TVG_itemRankRestrictions", createHashMapFromArray []];
+    TVG_itemRankRestrictions = missionProfileNamespace getVariable ["TVG_itemRankRestrictions", createHashMapFromArray []];
 
     publicVariable "TVG_itemRankRestrictions";
 };
