@@ -27,7 +27,7 @@ class EditorData
 	};
 };
 binarizationWanted=0;
-sourceName="HM_Final";
+sourceName="=BTC=co@30_Hearts_and_Minds_Altis";
 addons[]=
 {
 	"A3_Ui_F",
